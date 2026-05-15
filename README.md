@@ -43,14 +43,15 @@ for k in range(K):
 
 
 
- INSTALLATION 
+ ## INSTALLATION 
 
 git clone https://github.com/Apuoxo/FeedbackCoupled-SafeAdaptiveControl.git
+
 cd FeedbackCoupled-SafeAdaptiveControl
 pip install -r requirements.txt
 
 
- Quick Start 
+## Quick Start 
 
 from src.controller import SafeAdaptiveController
 import numpy as np
